@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-sans: "Source Sans 3", "Source Sans Pro", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
+
+  --color-bg: #f3eee4;
+  --color-bg-warm: #ebe4d6;
+  --color-surface: #faf7f1;
+  --color-ink: #1c1917;
+  --color-muted: #6b645b;
+  --color-subtle: #8d857a;
+  --color-line: #d8d0c2;
+  --color-line-strong: #c4baa8;
+  --color-forest: #1f5c4a;
+  --color-forest-deep: #163f34;
+  --color-moss: #3d7a64;
+  --color-leaf: #e4efe8;
+  --color-clay: #8b4a32;
+  --color-sand: #c9a27a;
+  --color-amber-soft: #f3e2c4;
+  --color-danger: #9b2c2c;
+  --color-ok: #2f6b4f;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+  --z-index-header: 40;
+  --z-index-overlay: 80;
+  --z-index-drawer: 90;
+}
+
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-bg);
+    color: var(--color-ink);
+    min-height: 100dvh;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  a {
+    touch-action: manipulation;
+  }
+
+  ::selection {
+    background: var(--color-leaf);
+    color: var(--color-forest-deep);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

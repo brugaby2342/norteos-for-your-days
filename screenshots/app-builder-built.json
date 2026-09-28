@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Norte OS",
+      "hasCanvas": false,
+      "bodyTextLen": 1787,
+      "bodyTextHash": "ed39fec62016c83dfd9628a306ab7b3543cb78bc473e22d1a6607067dafc6714",
+      "bodyTextPrefix": "Norte OS Sistema operacional pessoal para transição de carreira ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Norte OS",
+      "hasCanvas": false,
+      "bodyTextLen": 1585,
+      "bodyTextHash": "4c250a228cf6046b87a8398d1e01df26026df54f344d5787ba5f0d4abc7c0625",
+      "bodyTextPrefix": "Norte OS POS PARA TRANSIÇÃO DE CARREIRA TECH Bom estudo, Gabriel",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
