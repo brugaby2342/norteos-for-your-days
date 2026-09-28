@@ -1,6 +1,10 @@
-<h1 align="center">Norte OS — Norte for your days</h1> <br/><br/>
+<h1 align="center">Norte OS — Norte for your days</h1> <br/>
+
+<p align="center"><img src = "https://img.shields.io/badge/status-Em%20andamento-yellow" /><br/>
+  <img src = "https://img.shields.io/badge/UniFECAF/Rocketseat-Produtividade%20e%20Gest%C3%A3o%20do%20Tempo-blue" />
 
 > Sistema Operacional Pessoal para gerenciar tempo, comunicação e produtividade com apoio de Inteligência Artificial, desenvolvido para um momento de transição de carreira para a tecnologia.
+
 
 
 ## 💡 Sobre o projeto
@@ -30,7 +34,6 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 
 ## ✨ Funcionalidades
 <br/>
-<br/>
 
 | MÓDULO          | O QUE FAZ        |
 | :--- | :--- |
@@ -41,15 +44,10 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 | **Expressão / PIs**   | Organização de cursos e projetos em módulos e pacotes intermediários (tela, README, exercício, trecho de código)     | 
 | **Copiloto (IA)**   | Resumos de aulas, briefings diários, planos semanais e estruturação de módulos e PIs     | 
 | **Mensagens (IA)**   | Reescrita de propostas de freela, follow-ups e apresentações profissionais em versão pronta para copiar e colar     | 
-<br/>
-<br/>
-
 
 ---
 
-
-
-## Fluxo
+### Fluxo
 
 
 1. Capturar ideia, nota ou tarefa no **Segundo cérebro** (inbox → esclarecer)
@@ -62,15 +60,12 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 8. Organizar revisões
 
 
-
 ## 🧠 Métodos de produtividade aplicados
 
 
 - Lei de Parkinson — limites rígidos de duração (Pomodoro e time-blocking) e critérios claros de conclusão: um módulo só termina com os exercícios feitos; um projeto só avança com um pacote intermediário funcional.<br/>
 - Princípio de Pareto (80/20) — foco nos esforços de maior impacto: praticar o módulo vigente, publicar no GitHub e cumprir as entregas acadêmicas.<br/>
 - Matriz de Eisenhower — quadrantes com nomes operacionais. A categorização é uma decisão consciente.<br/>
-<br/>
-<br/>
 
 | QUADRANTE          | SIGNIFICADO        | EXEMPLO       |
 | :--- | :--- | :--- |
@@ -78,9 +73,6 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 | **Agendar**   | Importante, sem urgência    | README do portfólio  |
 | **Delegar**   | Urgente, pouco importante     | Agrupar mensagens e respostas a vagas em um lote único.  |
 | **Eliminar**   | Nem urgente nem importante     | Consumo passivo de conteúdo sem prática  |
-<br/>
-<br/>
-
 
 - GTD (David Allen) — capturar, esclarecer, organizar, revisar e executar. A captura acontece no app Notas; tarefas acionáveis vão para o Norte OS; conteúdo e referenciais vão para o Drive.
 
@@ -95,8 +87,7 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 - Regra dos dois minutos — demandas rápidas são resolvidas na hora e não entram na caixa de entrada.
 
 
-
-## Ferramentas
+## 🛠️ Ferramentas
 
 
 - Norte OS (este app) — equivalente a um workspace Notion (bases + dashboard + IA)
@@ -106,12 +97,10 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 - Referência: "Criando um Segundo Cérebro", Tiago Forte
 
 
-
 ### Ecossistema: onde mora cada informação
 
 
 O Norte OS não tenta guardar tudo. Ele convive com ferramentas nativas para evitar duplicidade:
-<br/>
 <br/>
 
 | NECESSIDADE          | FERRAMENTA        | PAPEL       |
@@ -125,10 +114,7 @@ O Norte OS não tenta guardar tudo. Ele convive com ferramentas nativas para evi
 | **Resumo e plano com IA**   | Norte OS · Copiloto     | Aula, semana, módulos e PIs  |
 | **Reescrever texto**   | Norte OS · Mensagens     | Versão pronta e formatada para copiar e colar  |
 
-<br/>
-<br/>
-
-## 🏗️ Arquitetura
+## 🏠 Arquitetura
 
 
 O Norte OS não usa banco de dados remoto. Ele roda direto no navegador e armazena os dados no próprio dispositivo do usuário.<br/>
@@ -147,36 +133,26 @@ A IA funciona como apoio cognitivo: sintetiza conteúdo repetitivo e estrutura r
 *Mensagens* — propostas de freela, follow-ups e apresentações para e-mail ou LinkedIn.<br/>
 
 
-
 ## 🚀 Como usar
 
 
-
-https://img.shields.io/badge/status-concluído-yellow<br/>
-https://img.shields.io/badge/UniFECAF/Rocketseat-Produtividade%20e%20Gest%C3%A3o%20do%20Tempo-blue<br/>
-
-Link app<br/>
-*https://norteos-for-your-days.grok.me*<br/>
+[NorteOS](https://norteos-for-your-days.grok.me)
 
 Depois de abrir o sistema, use o menu para alternar entre Gerar dados de teste e Limpar dados. Os dados ficam no navegador neste momento. 
 
 Navegue pelas telas: Painel, Tarefas, Agenda, Foco, Segundo cérebro, Copiloto, Comunicação.
 
 
-
 ## 🖼️ Capturas de tela
 
 
-
 *imagens das principais telas: Agenda, Tarefas (Eisenhower/Kanban), Foco, Segundo Cérebro, Copiloto e Mensagens.*
-
 
 
 ## 👩‍💻 Autora
 Bruna Gabriela Ribeiro Sartor 
 
 Estudante de Inteligência Artificial e Automação Digital — UniFECAF / Rocketseat
-
 
 Projeto desenvolvido para a disciplina Produtividade e Gestão do Tempo · Agosto/Setembro de 2026
 
