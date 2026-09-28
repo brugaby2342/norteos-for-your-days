@@ -1,7 +1,10 @@
 <h1 align="center">Norte OS — Norte for your days</h1> <br/><br/>
+
 > Sistema Operacional Pessoal para gerenciar tempo, comunicação e produtividade com apoio de Inteligência Artificial, desenvolvido para um momento de transição de carreira para a tecnologia.
 
+
 ## 💡 Sobre o projeto
+
 
 O Norte OS foi desenvolvido como prática do trabalho da disciplina Produtividade e Gestão do Tempo, do curso de Inteligência Artificial e Automação Digital (UniFECAF/Rocketseat).
 
@@ -24,6 +27,7 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 - Revisão sempre para depois.<br/>
 - Procrastinação disfarçada.
 
+
 ## ✨ Funcionalidades
 <br/>
 <br/>
@@ -44,7 +48,9 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 ---
 
 
+
 ## Fluxo
+
 
 1. Capturar ideia, nota ou tarefa no **Segundo cérebro** (inbox → esclarecer)
 2. Cadastrar tarefas sob a perspectiva da Matriz de Eisenhower
@@ -56,13 +62,15 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 8. Organizar revisões
 
 
+
 ## 🧠 Métodos de produtividade aplicados
 
 
 - Lei de Parkinson — limites rígidos de duração (Pomodoro e time-blocking) e critérios claros de conclusão: um módulo só termina com os exercícios feitos; um projeto só avança com um pacote intermediário funcional.<br/>
 - Princípio de Pareto (80/20) — foco nos esforços de maior impacto: praticar o módulo vigente, publicar no GitHub e cumprir as entregas acadêmicas.<br/>
 - Matriz de Eisenhower — quadrantes com nomes operacionais. A categorização é uma decisão consciente.<br/>
-
+<br/>
+<br/>
 
 | QUADRANTE          | SIGNIFICADO        | EXEMPLO       |
 | :--- | :--- | :--- |
@@ -70,6 +78,8 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 | **Agendar**   | Importante, sem urgência    | README do portfólio  |
 | **Delegar**   | Urgente, pouco importante     | Agrupar mensagens e respostas a vagas em um lote único.  |
 | **Eliminar**   | Nem urgente nem importante     | Consumo passivo de conteúdo sem prática  |
+<br/>
+<br/>
 
 
 - GTD (David Allen) — capturar, esclarecer, organizar, revisar e executar. A captura acontece no app Notas; tarefas acionáveis vão para o Norte OS; conteúdo e referenciais vão para o Drive.
@@ -85,6 +95,7 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 - Regra dos dois minutos — demandas rápidas são resolvidas na hora e não entram na caixa de entrada.
 
 
+
 ## Ferramentas
 
 
@@ -93,6 +104,7 @@ O diagnóstico foi sobreposição de frentes sem uma estrutura para decidir, cap
 - Métodos: GTD, Eisenhower, Pomodoro, PARA, time blocking
 - IA Grok: resumir aula, plano da semana, criar PIs, rascunhar proposta
 - Referência: "Criando um Segundo Cérebro", Tiago Forte
+
 
 
 ### Ecossistema: onde mora cada informação
@@ -118,13 +130,16 @@ O Norte OS não tenta guardar tudo. Ele convive com ferramentas nativas para evi
 
 ## 🏗️ Arquitetura
 
+
 O Norte OS não usa banco de dados remoto. Ele roda direto no navegador e armazena os dados no próprio dispositivo do usuário.<br/>
 Essa é uma escolha deliberada para a fase atual de uso pessoal e testes:<br/>
 - sem servidores, contas na nuvem ou sincronização entre dispositivos;
 - menos configuração, mais validação prática do sistema;
 - coerente com o próprio diagnóstico do projeto, que aponta a busca pela "configuração perfeita" como forma de procrastinação.
 
+
 ## 🤖 Inteligência Artificial
+
 
 A IA funciona como apoio cognitivo: sintetiza conteúdo repetitivo e estrutura rascunhos, mas nunca decide prioridades. As sugestões são analisadas, ajustadas e aplicadas manualmente.<br/>
 
@@ -132,7 +147,9 @@ A IA funciona como apoio cognitivo: sintetiza conteúdo repetitivo e estrutura r
 *Mensagens* — propostas de freela, follow-ups e apresentações para e-mail ou LinkedIn.<br/>
 
 
+
 ## 🚀 Como usar
+
 
 
 https://img.shields.io/badge/status-concluído-yellow<br/>
@@ -146,7 +163,9 @@ Depois de abrir o sistema, use o menu para alternar entre Gerar dados de teste e
 Navegue pelas telas: Painel, Tarefas, Agenda, Foco, Segundo cérebro, Copiloto, Comunicação.
 
 
+
 ## 🖼️ Capturas de tela
+
 
 
 *imagens das principais telas: Agenda, Tarefas (Eisenhower/Kanban), Foco, Segundo Cérebro, Copiloto e Mensagens.*
