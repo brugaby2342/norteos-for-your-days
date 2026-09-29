@@ -138,6 +138,10 @@ export interface Project {
   next: string;
   outcome: string;
   deadline: string | null;
+  syllabus: string[];
+  modules: number;
+  done: number;
+  current: string;
   packets: Packet[];
   distill: string;
   layers?: DistillLayers;
