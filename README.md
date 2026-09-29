@@ -146,8 +146,8 @@ Depois de abrir o sistema, use o menu para alternar entre Gerar dados de teste e
 Navegue pelas telas: Tarefas, Agenda, Foco, Segundo cérebro, Copiloto, Comunicação.
 
 
-<img width="500" height="281" alt="tarefas-matriz" src="https://github.com/user-attachments/assets/1c795e3a-665c-4a1c-9246-0289d38dddf4" />
-<img width="500" height="281" alt="agenda" src="https://github.com/user-attachments/assets/5c362a7e-8697-442d-bcc5-3e00279e69af" />
+<img width="480" height="270" alt="tarefas-matriz" src="https://github.com/user-attachments/assets/1c795e3a-665c-4a1c-9246-0289d38dddf4" />
+<img width="480" height="270" alt="agenda" src="https://github.com/user-attachments/assets/5c362a7e-8697-442d-bcc5-3e00279e69af" />
 
 *Tarefas - Matriz Eisenhower* e *Agenda*
 
