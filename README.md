@@ -146,22 +146,22 @@ Depois de abrir o sistema, use o menu para alternar entre Gerar dados de teste e
 Navegue pelas telas: Tarefas, Agenda, Foco, Segundo cérebro, Copiloto, Comunicação.
 
 
-<img width="400" height="225" alt="tarefas-matriz" src="https://github.com/user-attachments/assets/1c795e3a-665c-4a1c-9246-0289d38dddf4" />
+<p align="center"><img width="400" height="225" alt="tarefas-matriz" src="https://github.com/user-attachments/assets/1c795e3a-665c-4a1c-9246-0289d38dddf4" />
 <img width="400" height="225" alt="agenda" src="https://github.com/user-attachments/assets/5c362a7e-8697-442d-bcc5-3e00279e69af" />
 
 *Tarefas - Matriz Eisenhower* e *Agenda*
 
-<img width="400" height="225" alt="pomodoro" src="https://github.com/user-attachments/assets/75149827-3c8c-4a52-9301-41e842170ce6" />
+<p align="center"><img width="400" height="225" alt="pomodoro" src="https://github.com/user-attachments/assets/75149827-3c8c-4a52-9301-41e842170ce6" />
 <img width="400" height="225" alt="notas-entrada" src="https://github.com/user-attachments/assets/0e64aef9-c87b-4513-9b42-0ca63a41f06b" />
 
 *Foco* e *Segundo Cérebro*
 
-<img width="400" height="225" alt="notas-cc50" src="https://github.com/user-attachments/assets/9b5d8ba0-f3fb-4922-8d21-c13f7fecf2af" />
+<p align="center"><img width="400" height="225" alt="notas-cc50" src="https://github.com/user-attachments/assets/9b5d8ba0-f3fb-4922-8d21-c13f7fecf2af" />
 <img width="400" height="225" alt="cursoIA" src="https://github.com/user-attachments/assets/44a1bbf0-f99c-457e-84e7-ca15d397e3c1" />
 
 *Segundo Cérebro*
 
-<img width="400" height="225" alt="copiloto-curso" src="https://github.com/user-attachments/assets/beb2e449-3131-404a-b3fd-68142266513d" />
+<p align="center"><img width="400" height="225" alt="copiloto-curso" src="https://github.com/user-attachments/assets/beb2e449-3131-404a-b3fd-68142266513d" />
 <img width="400" height="225" alt="mensagens" src="https://github.com/user-attachments/assets/6f71a0bb-9292-4a3b-bb2b-f08d1e1e283c" />
 
 *Copiloto IA* e *Mensagens*
