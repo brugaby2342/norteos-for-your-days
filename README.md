@@ -5,7 +5,7 @@
 
 > Sistema Operacional Pessoal para gerenciar tempo, comunicação e produtividade com apoio de Inteligência Artificial, desenvolvido para um momento de transição de carreira para a tecnologia.
 
-<img width="1370" height="817" alt="painel" src="https://github.com/user-attachments/assets/93448c6f-a7da-4d4a-a11c-c0d7e7636c6b" />
+<p align="center"><img width="890" height="501" alt="painel" src="https://github.com/user-attachments/assets/93448c6f-a7da-4d4a-a11c-c0d7e7636c6b" />
 
 
 ## 💡 Sobre o projeto
