@@ -5,6 +5,7 @@
 
 > Sistema Operacional Pessoal para gerenciar tempo, comunicação e produtividade com apoio de Inteligência Artificial, desenvolvido para um momento de transição de carreira para a tecnologia.
 
+<img width="1370" height="817" alt="painel" src="https://github.com/user-attachments/assets/93448c6f-a7da-4d4a-a11c-c0d7e7636c6b" />
 
 
 ## 💡 Sobre o projeto
@@ -140,13 +141,42 @@ A IA funciona como apoio cognitivo: sintetiza conteúdo repetitivo e estrutura r
 
 Depois de abrir o sistema, use o menu para alternar entre Gerar dados de teste e Limpar dados. Os dados ficam no navegador neste momento. 
 
-Navegue pelas telas: Painel, Tarefas, Agenda, Foco, Segundo cérebro, Copiloto, Comunicação.
+Navegue pelas telas: Tarefas, Agenda, Foco, Segundo cérebro, Copiloto, Comunicação.
 
 
-## 🖼️ Capturas de tela
+<img width="1386" height="808" alt="tarefas-matriz" src="https://github.com/user-attachments/assets/1c795e3a-665c-4a1c-9246-0289d38dddf4" />
+
+*Tarefas - Matriz Eisenhower*
+
+<img width="1412" height="826" alt="agenda" src="https://github.com/user-attachments/assets/5c362a7e-8697-442d-bcc5-3e00279e69af" />
+
+*Agenda*
+
+<img width="1387" height="820" alt="pomodoro" src="https://github.com/user-attachments/assets/75149827-3c8c-4a52-9301-41e842170ce6" />
+
+*Foco*
+
+<img width="1378" height="795" alt="notas-entrada" src="https://github.com/user-attachments/assets/0e64aef9-c87b-4513-9b42-0ca63a41f06b" />
+
+*Segundo Cérebro*
+
+<img width="1386" height="814" alt="notas-cc50" src="https://github.com/user-attachments/assets/9b5d8ba0-f3fb-4922-8d21-c13f7fecf2af" />
+
+*Segundo Cérebro*
+
+<img width="1372" height="811" alt="cursoIA" src="https://github.com/user-attachments/assets/44a1bbf0-f99c-457e-84e7-ca15d397e3c1" />
+
+*Segundo Cérebro*
+
+<img width="1395" height="814" alt="copiloto-curso" src="https://github.com/user-attachments/assets/beb2e449-3131-404a-b3fd-68142266513d" />
+
+*Copiloto IA*
+
+<img width="1388" height="825" alt="mensagens" src="https://github.com/user-attachments/assets/6f71a0bb-9292-4a3b-bb2b-f08d1e1e283c" />
+
+*Mensagens*
 
 
-*imagens das principais telas: Agenda, Tarefas (Eisenhower/Kanban), Foco, Segundo Cérebro, Copiloto e Mensagens.*
 
 
 ## 👩‍💻 Autora
