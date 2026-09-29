@@ -33,12 +33,25 @@ function ModuleAdder({ onAdd }: { onAdd: (title: string) => void }) {
 export function ProjectModules({ id }: { id: string }) {
   const project = usePos((s) => s.projects.find((p) => p.id === id));
   const updateProject = usePos((s) => s.updateProject);
-  const bumpProject = usePos((s) => s.bumpProject);
 
   if (!project) return null;
 
   const syllabus = project.syllabus ?? [];
-  const pctMods = project.modules ? Math.round((project.done / project.modules) * 100) : 0;
+  const total = syllabus.length || project.modules || 0;
+  const done = Math.max(0, Math.min(project.done ?? 0, total));
+  const pctMods = total ? Math.round((done / total) * 100) : 0;
+
+  function bump(delta: number) {
+    const nextDone = Math.max(0, Math.min(total, done + delta));
+    updateProject(id, {
+      done: nextDone,
+      modules: total,
+      current:
+        syllabus[nextDone] ??
+        syllabus[syllabus.length - 1] ??
+        (nextDone >= total && total > 0 ? "Concluído" : project.current ?? "A começar"),
+    });
+  }
 
   return (
     <Card className="grid gap-3">
@@ -47,7 +60,7 @@ export function ProjectModules({ id }: { id: string }) {
         <p className="pt-1 text-sm tabular-nums text-muted">{pctMods}%</p>
       </div>
       <p className="text-sm text-muted">
-        {syllabus.length ? `Atual: ${project.current}` : "Nenhum módulo cadastrado ainda."}
+        {syllabus.length ? `Atual: ${project.current || syllabus[done] || "A começar"}` : "Nenhum módulo cadastrado ainda."}
       </p>
       <div className="h-1.5 overflow-hidden rounded-full bg-bg-warm">
         <div className="h-full bg-forest" style={{ width: `${pctMods}%` }} />
@@ -61,9 +74,9 @@ export function ProjectModules({ id }: { id: string }) {
             >
               <span
                 className={`text-sm ${
-                  i < project.done
+                  i < done
                     ? "text-subtle line-through"
-                    : i === project.done
+                    : i === done
                       ? "font-medium text-ink"
                       : "text-muted"
                 }`}
@@ -75,12 +88,12 @@ export function ProjectModules({ id }: { id: string }) {
                 className="text-xs text-clay"
                 onClick={() => {
                   const next = syllabus.filter((_, j) => j !== i);
-                  const done = Math.min(project.done, next.length);
+                  const nextDone = Math.min(done, next.length);
                   updateProject(id, {
                     syllabus: next,
                     modules: next.length,
-                    done,
-                    current: next[done] ?? "A começar",
+                    done: nextDone,
+                    current: next[nextDone] ?? "A começar",
                   });
                 }}
               >
@@ -101,10 +114,10 @@ export function ProjectModules({ id }: { id: string }) {
         }}
       />
       <div className="flex gap-2">
-        <Button type="button" tone="ghost" onClick={() => bumpProject(id, 1)}>
+        <Button type="button" tone="ghost" onClick={() => bump(1)}>
           Módulo feito
         </Button>
-        <Button type="button" tone="ghost" onClick={() => bumpProject(id, -1)}>
+        <Button type="button" tone="ghost" onClick={() => bump(-1)}>
           Desfazer
         </Button>
       </div>
