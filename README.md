@@ -1,6 +1,6 @@
 <h1 align="center">Norte OS — Norte for your days</h1> <br/>
 
-<p align="center"><img src = "https://img.shields.io/badge/status-Em%20andamento-yellow" /><br/>
+<p align="center"><img src = "https://img.shields.io/badge/status-Conclu%C3%ADdo-brightgreen" /><br/>
   <img src = "https://img.shields.io/badge/UniFECAF/Rocketseat-Produtividade%20e%20Gest%C3%A3o%20do%20Tempo-blue" />
 
 > Sistema Operacional Pessoal para gerenciar tempo, comunicação e produtividade com apoio de Inteligência Artificial, desenvolvido para um momento de transição de carreira para a tecnologia.
@@ -119,10 +119,10 @@ O Norte OS não tenta guardar tudo. Ele convive com ferramentas nativas para evi
 
 
 O Norte OS não usa banco de dados remoto. Ele roda direto no navegador e armazena os dados no próprio dispositivo do usuário.<br/>
-Essa é uma escolha deliberada para a fase atual de uso pessoal e testes:<br/>
+Os dados ficam no navegador de propósito:<br/>
 - sem servidores, contas na nuvem ou sincronização entre dispositivos;
-- menos configuração, mais validação prática do sistema;
-- coerente com o próprio diagnóstico do projeto, que aponta a busca pela "configuração perfeita" como forma de procrastinação.
+- pronto para usar, sem configuração;
+- o histórico permanece no próprio aparelho.
 
 
 ## 🤖 Inteligência Artificial
@@ -134,6 +134,7 @@ A IA funciona como apoio cognitivo: sintetiza conteúdo repetitivo e estrutura r
 *Mensagens* — propostas de freela, follow-ups e apresentações para e-mail ou LinkedIn.<br/>
 
 
+
 ## 🚀 Como usar
 
 [Documentação funcional](https://github.com/brugaby2342/norteos-for-your-days/blob/main/DOCUMENTACAO.md)
@@ -141,7 +142,7 @@ A IA funciona como apoio cognitivo: sintetiza conteúdo repetitivo e estrutura r
 
 [NorteOS](https://norteos-for-your-days.grok.me)
 
-Depois de abrir o sistema, use o menu para alternar entre Gerar dados de teste e Limpar dados. Os dados ficam no navegador neste momento. 
+Abra o app, navegue pelas telas e, se quiser ver o sistema preenchido, use o menu para carregar um exemplo ou limpar os dados. Tudo fica salvo no navegador. 
 
 Navegue pelas telas: Tarefas, Agenda, Foco, Segundo cérebro, Copiloto, Comunicação.
 
@@ -174,8 +175,3 @@ Bruna Gabriela Ribeiro Sartor
 Estudante de Inteligência Artificial e Automação Digital — UniFECAF / Rocketseat
 
 Projeto desenvolvido para a disciplina Produtividade e Gestão do Tempo · Agosto/Setembro de 2026
-
-
-
-
-
